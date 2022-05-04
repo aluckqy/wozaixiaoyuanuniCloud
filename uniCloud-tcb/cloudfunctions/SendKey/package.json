@@ -1,0 +1,7 @@
+{
+  "name": "SendKey",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "pushServer",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

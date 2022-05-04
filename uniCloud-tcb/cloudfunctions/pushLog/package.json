@@ -1,0 +1,7 @@
+{
+  "name": "pushLog",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "signHealth",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

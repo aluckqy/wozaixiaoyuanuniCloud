@@ -1,0 +1,16 @@
+{
+	"name": "signToday",
+	"dependencies": {},
+	"extensions": {
+		"uni-cloud-jql": {}
+	},
+	"cloudfunction-config": {
+		"timeout": 300,
+		"triggers": [{
+			"name": "signToday",
+			"type": "timer",
+			"config": "1 0 0,12 * * * *"
+		}],
+		"path": "/signToday"
+	}
+}

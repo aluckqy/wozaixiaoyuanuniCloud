@@ -1,0 +1,16 @@
+{
+  "name": "verifyCookie",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  },
+  "cloudfunction-config": {
+  	"timeout": 60,
+  	"triggers": [{
+  		"name": "verifyCookie",
+  		"type": "timer",
+  		"config": "0 0 11,23 * * * *"
+  	}],
+  	"path": "/verifyCookie"
+  }
+}

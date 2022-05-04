@@ -1,0 +1,7 @@
+{
+  "name": "pushLocation",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "getLog",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "pushtoday",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}
