@@ -66,6 +66,17 @@ exports.main = async (event, context) => {
 			})
 
 
+		}else{
+			let callFunctionSms = await uniCloud.callFunction({
+				name: "sms",
+				data: {
+					telephone: user.telephone,
+				}
+			}).then(ressu => {
+				console.log(ressu)
+			
+			})
+			
 		}
 
 	}
