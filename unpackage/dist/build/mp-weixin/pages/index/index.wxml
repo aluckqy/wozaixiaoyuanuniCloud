@@ -1,1 +1,0 @@
-<view><block wx:if="{{PageCur=='basics'}}"><basics vue-id="8dd740cc-1" bind:__l="__l"></basics></block></view>
