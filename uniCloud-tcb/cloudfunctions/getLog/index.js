@@ -5,7 +5,7 @@ exports.main = async (event, context) => {
 	const db = uniCloud.database();
 	let getLog = await db.collection('uni_wzxy_log').where({
 		telephone: event.telephone,
-	}).orderBy("date","desc").get()
+	}).orderBy("date","desc").limit(30).get()
 	//返回数据给客户端
 	return getLog
 };
